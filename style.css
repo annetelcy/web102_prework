@@ -18,9 +18,15 @@ body {
     margin-right: -10px;
     margin-top: -10px;
 }
-
+/* Add flexbox properties*/
 .stats-container {
     display: flex;
+    align-items:center;
+}
+/* Add hover effect*/
+.stats-container:hover {
+    cursor: pointer;
+    box-shadow: 0 0 30px lightblue;
 }
 
 .stats-card {
